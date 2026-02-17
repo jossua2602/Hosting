@@ -1,0 +1,41 @@
+body {
+    background-image: url(src/black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.right-side {
+    max-width: 600px;
+}
+
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
